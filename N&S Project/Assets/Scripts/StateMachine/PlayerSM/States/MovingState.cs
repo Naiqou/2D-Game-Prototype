@@ -14,7 +14,7 @@ public class MovingState : PlayerState
 
     public override void PhysicsUpdate()
     {
-        base.Update();
+        base.PhysicsUpdate();
         var direction = new Vector2(Input.GetAxis("Horizontal"),0);
         float speed = 2f;
         _playerManager.Rb.velocity = direction * speed * 100 * Time.fixedDeltaTime;

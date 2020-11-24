@@ -43,8 +43,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/StateMachine/Core/State.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/StateMachine/PlayerSM/States/IdleState.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/StateMachine/PlayerSM/States/MovingState.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/FollowerManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/StateMachine/PlayerSM/States/MovingState.cs" />
       </list>
     </option>
   </component>
@@ -89,7 +89,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1606124743402</updated>
-      <workItem from="1606124748557" duration="16949000" />
+      <workItem from="1606124748557" duration="17549000" />
     </task>
     <servers />
   </component>
