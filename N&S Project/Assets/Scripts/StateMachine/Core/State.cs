@@ -10,6 +10,10 @@ public abstract class State
     {
         
     }
+    public virtual void InputHandler()
+    {
+        
+    }
     
     public virtual void Update()
     {

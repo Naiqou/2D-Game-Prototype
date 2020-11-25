@@ -6,34 +6,38 @@ using UnityEngine.Serialization;
 
 public class PlayerManager : MonoBehaviour
 {
-    private StateMachine _stateMachine;
-    public PlayerState idle;
-    public PlayerState moving;
-    private Rigidbody2D _rb;
-
+    private PlayerStateMachine _stateMachine;
+    public PlayerState Idle;
+    public PlayerState Moving;
+    public PlayerState Jumping;
+    private Rigidbody2D _rb; 
+    public Grounded grounded;
     public Rigidbody2D Rb => _rb;
 
 
     void Start()
     {
+        grounded = GetComponent<Grounded>();
      _stateMachine = new PlayerStateMachine();
-     idle = new IdleState(_stateMachine, this);
-     moving = new MovingState(_stateMachine, this);
+     Idle = new IdleState(_stateMachine, this);
+     Moving = new MovingState(_stateMachine, this);
+     Jumping = new JumpingState(_stateMachine,this);
      _rb = GetComponent<Rigidbody2D>();
-
-     _stateMachine.Initialize(idle);
+     _stateMachine.Initialize(Idle);
     }
-    
+    private void Update()
+    {
+        Debug.Log("Current State: " + _stateMachine.CurrentState);
+        Debug.Log("Grounded: " + grounded.IsGrounded());
+        _stateMachine.CurrentState.InputHandler();
+        _stateMachine.CurrentState.Update();
+    }
     void FixedUpdate()
     {
         _stateMachine.CurrentState.PhysicsUpdate();
     }
 
-    private void Update()
-    {
-        Debug.Log("Current State: " + _stateMachine.CurrentState);
-        _stateMachine.CurrentState.Update();
-    }
+
 
     
 }

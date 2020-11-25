@@ -10,6 +10,7 @@
           <e p="FollowerManager.cs" t="Include" />
           <e p="InputManager.cs" t="Include" />
           <e p="Player" t="Include">
+            <e p="Grounded.cs" t="Include" />
             <e p="PlayerManager.cs" t="Include" />
           </e>
           <e p="StateMachine" t="Include">
@@ -22,6 +23,7 @@
               <e p="PlayerStateMachine.cs" t="Include" />
               <e p="States" t="Include">
                 <e p="IdleState.cs" t="Include" />
+                <e p="JumpingState.cs" t="Include" />
                 <e p="MovingState.cs" t="Include" />
               </e>
             </e>

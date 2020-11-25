@@ -21,6 +21,8 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/StateMachine/PlayerSM/PlayerState.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/Grounded.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/StateMachine/PlayerSM/States/JumpingState.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -39,12 +41,15 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/StateMachine/PlayerSM/NinjaState.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/StateMachine/PlayerSM/SamuraiState.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/StateMachine/PlayerSM/PlayerStateMachine.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/StateMachine/PlayerSM/PlayerState.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/StateMachine/Core/State.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/StateMachine/PlayerSM/States/IdleState.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/FollowerManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/InputManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/StateMachine/Core/State.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/StateMachine/PlayerSM/PlayerState.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/Grounded.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/StateMachine/PlayerSM/States/IdleState.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/StateMachine/PlayerSM/States/MovingState.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/StateMachine/PlayerSM/States/JumpingState.cs" />
       </list>
     </option>
   </component>
@@ -89,7 +94,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1606124743402</updated>
-      <workItem from="1606124748557" duration="17549000" />
+      <workItem from="1606124748557" duration="30596000" />
     </task>
     <servers />
   </component>
@@ -117,9 +122,10 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2322" y="177" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040/2231.-768.1360.728@1920.0.1920.1040" timestamp="1606159954661" />
-    <state x="2608" y="361" width="672" height="678" key="search.everywhere.popup" timestamp="1606134873714">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state x="688" y="361" width="672" height="678" key="search.everywhere.popup" timestamp="1606317873740">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="688" y="361" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040/2231.-768.1360.728@0.0.1920.1040" timestamp="1606317873740" />
     <state x="2608" y="361" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040/2231.-768.1360.728@1920.0.1920.1040" timestamp="1606134873714" />
   </component>
 </project>

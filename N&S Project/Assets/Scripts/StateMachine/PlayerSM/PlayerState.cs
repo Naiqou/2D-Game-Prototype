@@ -7,7 +7,8 @@ public class PlayerState : State
     protected StateMachine _stateMachine;
     protected PlayerManager _playerManager;
 
-    public PlayerState(StateMachine stateMachine, PlayerManager playerManager)
+
+    protected PlayerState(StateMachine stateMachine, PlayerManager playerManager)
     {
         _stateMachine = stateMachine;
         _playerManager = playerManager;
